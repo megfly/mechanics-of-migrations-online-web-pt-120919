@@ -1,19 +1,5 @@
-class CreateArtists < ActiveRecord::Migration[5.2]
-  def up
-  end
+# db/migrate/01_create_artists.rb
  
-  def down
-  end
-  
-  class CreateArtists < ActiveRecord::Migration[5.2]
-  def change
-  end
-
-def change
-  create_table :artists do |t|
-  end
-end
-
 class CreateArtists < ActiveRecord::Migration[5.2]
   def change
     create_table :artists do |t|
@@ -23,6 +9,4 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.string :hometown
     end
   end
-end
-
 end
