@@ -8,7 +8,6 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   class CreateArtists < ActiveRecord::Migration[5.2]
   def change
   end
-end
 
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
